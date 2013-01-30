@@ -1,0 +1,27 @@
+{
+    "name": "neilime/zf2-ckeditor-bundle",
+    "type": "library",
+    "description": "Zend Framework 2 module for easy integration of the CKEditor WYSIWYG",
+    "keywords": ["CKEditor","bundle"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neilime",
+            "homepage": "http://neilime.github.com/zf2-ckeditor-bundle",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "phpunit/phpunit": "3.7.*",
+        "ckeditor/ckeditor-releases": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "CKEditorBundle": "src"
+        },
+        "classmap" : ["Module.php"]
+    }
+}
