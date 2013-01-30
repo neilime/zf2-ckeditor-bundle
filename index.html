@@ -13,13 +13,13 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>ZF2 CkeditorBundle by neilime</title>
+    <title>ZF2 CKEditorBundle by neilime</title>
   </head>
 
   <body>
     <header>
       <div class="inner">
-        <h1>ZF2 CkeditorBundle</h1>
+        <h1>ZF2 CKEditorBundle</h1>
         <h2>Zend Framework 2 module for easy integration of the CKEditor WYSIWYG</h2>
         <a href="https://github.com/neilime/zf2-ckeditor-bundle" class="button"><small>View project on</small>GitHub</a>
       </div>
@@ -28,9 +28,68 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h1>ZF2 CkeditorBundle</h1>
+          <h1>CKEditorBundle</h1>
 
-<p>Zend Frmawork module for easy integration of the CKEditor WYSIWYG</p>
+<p><a href="https://travis-ci.org/neilime/zf2-ckeditor-bundle"><img src="https://travis-ci.org/neilime/zf2-ckeditor-bundle.png?branch=master" alt="Build Status"></a></p>
+
+<p>Created by Neilime</p>
+
+<h2>Introduction</h2>
+
+<p>CKEditorBundle is a module for ZF2 for easy integration of the CKEditor WYSIWYG. </p>
+
+<p>P.S. Sorry for my english. If You wish to help me with this project or correct my english description - You are welcome :)</p>
+
+<h2>Requirements</h2>
+
+<ul>
+<li>
+<a href="https://github.com/zendframework/zf2">Zend Framework 2</a> (latest master)</li>
+</ul><h2>Installation</h2>
+
+<h3>Main Setup</h3>
+
+<h4>By cloning project</h4>
+
+<ol>
+<li>Install the .</li>
+<li>Clone this project into your <code>./vendor/</code> directory.</li>
+</ol><h4>With composer</h4>
+
+<ol>
+<li>
+<p>Add this project in your composer.json:</p>
+
+<div class="highlight"><pre><span class="s2">"require"</span><span class="err">:</span> <span class="p">{</span>
+    <span class="nt">"neilime/zf2-ckeditor-bundle"</span><span class="p">:</span> <span class="s2">"dev-master"</span>
+<span class="p">}</span>
+</pre></div>
+</li>
+<li>
+<p>Now tell composer to download CKEditorBundle by running the command:</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>php composer.phar update
+</pre></div>
+</li>
+</ol><h4>Post installation</h4>
+
+<ol>
+<li>
+<p>Enabling it in your <code>application.config.php</code>file.</p>
+
+<div class="highlight"><pre><span class="o">&lt;?</span><span class="nx">php</span>
+<span class="k">return</span> <span class="k">array</span><span class="p">(</span>
+    <span class="s1">'modules'</span> <span class="o">=&gt;</span> <span class="k">array</span><span class="p">(</span>
+        <span class="c1">// ...</span>
+        <span class="s1">'CKEditorBundle'</span><span class="p">,</span>
+    <span class="p">),</span>
+    <span class="c1">// ...</span>
+<span class="p">);</span>
+</pre></div>
+</li>
+</ol><h1>How to use CKEditorBundle</h1>
+
+<h2>Simple configuration example</h2>
         </section>
 
         <aside id="sidebar">
