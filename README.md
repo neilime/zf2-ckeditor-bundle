@@ -1,7 +1,7 @@
 CKEditorBundle
 =======
 
-[![Build Status](https://travis-ci.org/neilime/zf2-assets-bundle.png?branch=master)](https://travis-ci.org/neilime/zf2-assets-bundle)
+[![Build Status](https://travis-ci.org/neilime/zf2-ckeditor-bundle.png?branch=master)](https://travis-ci.org/neilime/zf2-ckeditor-bundle)
 
 Created by Neilime
 

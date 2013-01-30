@@ -12,11 +12,21 @@
             "role": "Developer"
         }
     ],
+     "repositories":[
+        {
+            "type": "package",
+            "package": {
+                "version": "dev-stable/standard",
+                "name": "ckeditor/ckeditor-releases",
+                "source": {"url": "https://github.com/ckeditor/ckeditor-releases.git","type": "git","reference": "stable/standard"}
+            }
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
         "phpunit/phpunit": "3.7.*",
-        "ckeditor/ckeditor-releases": "dev-master"
+        "ckeditor/ckeditor-releases": "dev-stable/standard"
     },
     "autoload": {
         "psr-0": {
@@ -24,4 +34,5 @@
         },
         "classmap" : ["Module.php"]
     }
+    
 }
