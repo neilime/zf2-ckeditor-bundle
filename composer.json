@@ -5,6 +5,7 @@
     "keywords": ["CKEditor","bundle"],
     "homepage": "",
     "license": "MIT",
+    "minimum-stability" : "stable",
     "authors": [
         {
             "name": "Neilime",
@@ -29,7 +30,7 @@
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
         "phpunit/phpunit": "3.7.*",
-        "ckeditor/ckeditor-releases": "4.0.1"
+        "ckeditor/ckeditor-releases": "4.0.1@stable"
     },
     "autoload": {
         "psr-0": {
