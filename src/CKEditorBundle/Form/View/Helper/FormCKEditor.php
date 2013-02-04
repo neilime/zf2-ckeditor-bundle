@@ -1,6 +1,6 @@
 <?php
 namespace CKEditorBundle\Form\View\Helper;
-class FormCKEditorHelper extends \Zend\Form\View\Helper\FormTextarea{
+class FormCKEditor extends \Zend\Form\View\Helper\FormTextarea{
 	/**
 	 * @var \Zend\View\Helper\EscapeJs
 	 */
